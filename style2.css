@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f3;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background:rgb(0, 45, 128);
+    padding:15px;
+    text-align:center;
+    color:rgb(255, 255, 255);
+}
+h3{
+    background:white;
+    padding: 15px;
+    text-align: center;
+    color:rgb(0, 45, 128);
+} 
+nav a {
+  margin: 0 15px;
+  font-weight: bold;
+  color:white;
+  text-decoration: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.grid-item {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input, textarea {
+  width: 95%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #777;
+}
+
+button {
+  padding: 8px 15px;     
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 8px;
+  border: none;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+button[type="submit"] {
+  background-color: blue;
+  color: white;
+}
+button[onclick="addTask()"] {
+  background:blue;
+  color: white;
+}
+
+button[onclick="addTask()"]:hover {
+  background: blues;
+}
+.delete-btn {
+  background-color: red;
+  color: white;
+  margin-left: 10px;
+}
+
+#errorMsg {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+li {
+  background: #fff;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
